@@ -1,0 +1,119 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  display: flex;
+  align-items: center;
+  padding: 0.5em;
+  background-color: lightseagreen;
+}
+header img {
+  width: 8%;
+}
+
+header a {
+  text-decoration: none;
+  padding: 0.5em 1em;
+  color: white;
+}
+
+header a:hover {
+  background-color: #130257;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+}
+main p {
+  margin-left: 2em;
+  margin-right: 2em;
+  color: #130257;
+}
+
+main img {
+  display: none;
+}
+
+main + section {
+  background-color: #130257;
+  color: white;
+  text-align: center;
+  padding: 3em 1em 1em 1em;
+}
+
+main + section img {
+  width: 50%;
+}
+
+footer {
+  text-align: center;
+  background-color: lightseagreen;
+  padding: 1.5em 0.5em;
+  margin-top: 2em;
+}
+
+footer div img {
+  width: 5%;
+  padding: 0.3em;
+}
+footer p {
+  color: #130257;
+}
+.text-center {
+  text-align: center;
+}
+.line-height {
+  line-height: 2em;
+}
+.padding-Top {
+  padding-top: 2.5em;
+}
+.myName {
+  font-size: 2rem;
+}
+.flex {
+  display: flex;
+  align-items: center;
+}
+.column-flex-direction {
+  flex-direction: column;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 0.5em;
+}
+.floating-btn {
+  position: fixed;
+  bottom: 2em;
+  right: 2em;
+}
+
+@media (min-width: 768px) {
+  body {
+    font-size: 1.5rem;
+  }
+  header img {
+    width: 5%;
+  }
+  main img {
+    display: inline;
+    width: 25%;
+    padding: 0.8em;
+  }
+  section p {
+    white-space: pre-wrap;
+  }
+  footer div img {
+    width: 2%;
+  }
+}
