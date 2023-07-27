@@ -8,10 +8,11 @@
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
   </head>
   <body>
-    <header>
+    <header class="z-index-two flex">
       <img src="Images/logo.jpg" alt="Logo" />
       <a href="#">Home</a>
       <a href="#about">About</a>
+      <a href="#skills">Skills</a>
       <a href="#project">Project</a>
       <a href="#footer">Contact me</a>
     </header>
@@ -44,7 +45,31 @@
       <img src="./Images/anime_developer.jpeg" alt="dev_image" />
     </section>
 
-    <section id="skills"></section>
+    <section
+      id="skills"
+      class="flex row-flex-direction text-center z-index-one w-75 position-relative background-white padding-Top"
+    >
+      <content class="half-row">
+        <h4>Programming language</h4>
+        <ul>
+          <li>Javascript</li>
+          <li>Java</li>
+          <li>Kotlin</li>
+          <li>Dart</li>
+          <li>C#</li>
+        </ul>
+      </content>
+      <content class="half-row">
+        <h4>Technologies</h4>
+        <ul>
+          <li>Android</li>
+          <li>React Native</li>
+          <li>Flutter</li>
+          <li>React JS</li>
+          <li>Node JS</li>
+        </ul>
+      </content>
+    </section>
 
     <section id="project" class="text-center padding-Top">
       <h2>Recent work</h2>
