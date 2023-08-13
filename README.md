@@ -35,7 +35,7 @@ This project showcases my portfolio using HTML and CSS. It includes sections for
 
 1. Clone the repository:
 2. Navigate to the project folder:
-3. Open the `index.html` file in a web browser to view the portfolio.
+3. Open the `main.html` file in a web browser to view the portfolio.
 
 ## Contributions
 
