@@ -8,7 +8,6 @@ This is a simple HTML and CSS project for creating a portfolio website.
 - [Features](#features)
 - [Screenshots](#screenshots)
 - [Usage](#usage)
-- [Contributions](#contributions)
 
 ## Introduction
 
@@ -37,6 +36,3 @@ This project showcases my portfolio using HTML and CSS. It includes sections for
 2. Navigate to the project folder:
 3. Open the `main.html` file in a web browser to view the portfolio.
 
-## Contributions
-
-Contributions are welcome! If you find any issues or want to enhance the project, feel free to submit a pull request.
